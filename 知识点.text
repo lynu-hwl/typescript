@@ -1,0 +1,16 @@
+1.实时编译ts
+    tsc --init 生成tsconfig.json，修改outDir,也就是编译生成的js文件的保存位置
+    vscode task 中打开ts的监视
+2.ts 的数据类型
+    布尔类型 （boolean）
+    数字类型 （number）
+    字符串类型 （string）
+    数组类型 （array）
+    元组类型 （tuple）``
+    枚举类型 （enum）
+    任意类型 （any)
+    null 和 undefined
+    void 类型
+    never 类型
+3.ts为了使编写更规范，更有利于维护，增加了类型校验，写ts代码必须指定类型
+4.ts只会在编译前阶段给你提示，不会阻止代码编译
